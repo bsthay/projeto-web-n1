@@ -1,1 +1,11 @@
 # projeto-web-n1
+
+ARTHUR FERREIRA BARROS- 10439829
+DAVID RODRIGUES DE OLIVEIRA- 10410867
+ERICKA FERNANDA LIMA DE QUEIROZ- 10420084
+GUSTAVO SANCHES SIMAO- 10436440
+THAYNARA BARBOSA DE ALMEIDA DA SILVA- 10410900
+
+O grupo decidiu desenvolver um serviço de assinatura de plantas focado na terceira idade. O projeto consiste em uma plataforma web mobile onde o usuário contrata uma assinatura para receber plantas periodicamente em casa. O diferencial está no aplicativo simplificado de acompanhamento, que utiliza uma linguagem clara e visual para ensinar o idoso a cuidar de cada espécie (frequência de rega, exposição ao sol, adubação), promovendo a terapia do cuidado e o bem-estar mental.
+O processo de definição deste tema ocorreu através de um brainstorming focado em impacto social e acessibilidade, onde houve um debate de como a tecnologia poderia auxiliar no combate à solidão e no estímulo cognitivo de idosos. Durante a discussao, refinamos a ideia inicial de um simples e-commerce para um modelo de assinatura com suporte educativo, votando por esta proposta devido ao seu alto valor humano e ao desafio técnico de criar uma interface "Senior-Friendly" (amigável para idosos). A decisão foi consolidada pela percepção de que o cuidado com plantas é uma atividade terapêutica comprovada, e a tecnologia pode ser a ponte para facilitar esse hábito sem gerar frustrações técnicas ao usuário.
+O projeto apresenta caráter extensionista ao aplicar o conhecimento tecnológico desenvolvido pelos estudantes para gerar impacto social na comunidade, especialmente na população idosa. A plataforma Plantibox busca promover bem-estar mental, estímulo cognitivo e redução da solidão por meio do cuidado com plantas, utilizando um aplicativo simples e acessível para orientar os usuários da terceira idade. Para ampliar esse impacto, o projeto prevê parceria com a Pastoral da Pessoa Idosa, organização que atua no apoio e acompanhamento de idosos no estado de São Paulo, possibilitando validar a solução com o público real, realizar testes de usabilidade e promover atividades educativas. Dessa forma, o projeto integra universidade e comunidade, utilizando a tecnologia como ferramenta de inclusão digital e promoção da qualidade de vida.
