@@ -12,3 +12,52 @@ O projeto apresenta caráter extensionista ao aplicar o conhecimento tecnológic
 
 ![WIREFRAME MOBILE](IMG_1398.jpeg)
 ![WIREFRAME DESKTOP](wireframe.jpeg)
+
+~~~~
+    <header>
+        <a href="#">
+            <img src="assets/logoplanticaixa.jpg" alt="Logo Ícone"> 
+            <img src="assets/logoplantiescrito.jpg" alt="Logo PlantiBox">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="#como-funciona">Como Funciona</a></li>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#plantas">Nossas Plantas</a></li>
+                <li><a href="#app">Nosso App</a></li>
+                <li><a href="#planos">Assine Já</a></li>
+            </ul>
+        </nav>
+    </header>
+~~~~
+
+Na header colocamos duas imagens para representar o ícone e uma imagem do Plantibox. Dentro do nav colocamos 5 links que redirecionam a diferentes abas. São elas: como funciona o site, nossos planos, nossas plantas, nosso aplicativo e o redirecionamento para fazer a assinatura.
+
+~~~~
+<main>
+        <section>
+            <h1>Reconecte-se com a natureza, uma planta por vez.</h1>
+            <p>Receba mini-plantas em casa todo mês e transforme seu espaço em um refúgio verde. Cuidar de plantas nunca foi tão fácil e prazeroso.</p>
+            <a href="#planos">Quero minhas plantas!</a>
+        </section>
+
+        <section id="como-funciona">
+            <h2>Como funciona?</h2>
+            <div>
+                <h3>1. Escolha seu plano</h3>
+                <p>Selecione o plano de assinatura que mais combina com seu espaço e sua rotina.</p>
+            </div>
+            <div>
+                <h3>2. Receba sua caixa</h3>
+                <p>Enviamos mensalmente uma caixa surpresa com mini-plantas saudáveis e cheias de vida.</p>
+            </div>
+            <div>
+                <h3>3. Cuide com nosso app</h3>
+                <p>Use nosso guia digital para aprender a cuidar, receber lembretes de rega e se conectar.</p>
+            </div>
+        </section>
+~~~~
+
+Abrimos uma tag main que mostrará a parte principal do site e começamos abrindo a primeira section incentivando o usuário a cuidar das suas plantas. Na mesma section colocamos um link que encaminha o usuário aos planos.
+Na segunda section explicamos como funciona o site em 3 "div's" diferentes. Uma informando que você precisa selecionar a assinatura que mais gosta, uma informando sobre as caixas que enviaremos mensalmente e outra informando sobre o nosso app. Cada div será somente um "quadrado" com um texto informativo.
