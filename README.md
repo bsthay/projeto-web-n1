@@ -13,7 +13,7 @@ O projeto apresenta caráter extensionista ao aplicar o conhecimento tecnológic
 ![WIREFRAME MOBILE](IMG_1398.jpeg)
 ![WIREFRAME DESKTOP](wireframe.jpeg)
 
-~~~~
+~~~
     <header>
         <a href="#">
             <img src="assets/logoplanticaixa.jpg" alt="Logo Ícone"> 
@@ -30,11 +30,11 @@ O projeto apresenta caráter extensionista ao aplicar o conhecimento tecnológic
             </ul>
         </nav>
     </header>
-~~~~
+~~~
 
 Na header colocamos duas imagens para representar o ícone e uma imagem do Plantibox. Dentro do nav colocamos 5 links que redirecionam a diferentes abas. São elas: como funciona o site, nossos planos, nossas plantas, nosso aplicativo e o redirecionamento para fazer a assinatura.
 
-~~~~
+~~~
 <main>
         <section>
             <h1>Reconecte-se com a natureza, uma planta por vez.</h1>
@@ -57,7 +57,102 @@ Na header colocamos duas imagens para representar o ícone e uma imagem do Plant
                 <p>Use nosso guia digital para aprender a cuidar, receber lembretes de rega e se conectar.</p>
             </div>
         </section>
-~~~~
+~~~
 
 Abrimos uma tag main que mostrará a parte principal do site e começamos abrindo a primeira section incentivando o usuário a cuidar das suas plantas. Na mesma section colocamos um link que encaminha o usuário aos planos.
 Na segunda section explicamos como funciona o site em 3 "div's" diferentes. Uma informando que você precisa selecionar a assinatura que mais gosta, uma informando sobre as caixas que enviaremos mensalmente e outra informando sobre o nosso app. Cada div será somente um "quadrado" com um texto informativo.
+
+~~~
+        <section id="planos">
+            <h2>Encontre o plano perfeito para você</h2>
+            
+            <article>
+                <h3>Starter</h3>
+                <p>R$ 19,90/mês</p>
+                <ul>
+                    <li>1 mini-planta por mês</li>
+                    <li>Vaso decorativo simples</li>
+                    <li>Acesso ao App Guia</li>
+                </ul>
+                <a href="#">Assinar Starter</a>
+            </article>
+
+            <article>
+                <h3>Nature Lover (Mais Popular)</h3>
+                <p>R$ 29,90/mês</p>
+                <ul>
+                    <li>2 mini-plantas por mês</li>
+                    <li>Vasos decorativos premium</li>
+                    <li>Acesso total ao App Guia</li>
+                    <li>Brinde surpresa</li>
+                </ul>
+                <a href="#">Assinar Nature Lover</a>
+            </article>
+
+            <article>
+                <h3>Jungle Master</h3>
+                <p>R$ 59,90/mês</p>
+                <ul>
+                    <li>3 mini-plantas por mês</li>
+                    <li>Vasos premium + suporte</li>
+                    <li>Acesso total ao App Guia</li>
+                    <li>2 brindes surpresa</li>
+                </ul>
+                <a href="#">Assinar Jungle Master</a>
+            </article>
+        </section>
+~~~  
+
+A section Planos funciona como exposição das formas de assinatura que nossa empresa oferece para nossos clientes. Além da transparência sobre preços e formas de pagamento desde o primeiro contato, fortalecemos nossa relação com o cliente final ao mantermos os valores expostos na principal página do site.
+
+~~~
+<section id="plantas">
+            <h2>Algumas das nossas mini-plantas</h2>
+            <figure>
+                <img src="assets/suculentas.webp" alt="Suculentas">
+                <figcaption>
+                    <h4>Suculentas</h4>
+                    <p>Perfeitas para iniciantes, amam sol e pouca água.</p>
+                </figcaption>
+         </figure>
+         </section
+~~~
+
+Section que funciona como uma "vitrine" das nossas plantas, suportando nosso site como recurso visual.
+
+~~~
+        <section id="app">
+            <h2>Mais que plantas, um guia na sua mão</h2>
+            <img src="assets/plantiapp.png" alt="Mockup do App">
+            <p>Nosso app é o companheiro perfeito para sua jornada verde.</p>
+            <ul>
+                <li>
+                    <h4>Guias de Cuidado</h4>
+                    <p>Tudo sobre sua nova planta: luz, água e curiosidades.</p>
+                </li>
+                <li>
+                    <h4>Lembretes de Rega</h4>
+                    <p>Avisamos a hora certa de regar, sem adivinhação.</p>
+                </li>
+            </ul>
+        </section>
+~~~
+
+Section específica para divulgar a principal tela do nosso aplicativo.
+
+~~~
+        <section>
+            <h2>Dúvidas Frequentes (FAQ)</h2>
+            <details>
+                <summary>Posso escolher as plantas que vou receber?</summary>
+                <p>A PlantiBox opera em um modelo surpresa...</p>
+            </details>
+            <details>
+                <summary>Como as plantas sobrevivem ao transporte?</summary>
+                <p>Usamos embalagens ecológicas e seguras...</p>
+            </details>
+        </section>
+    </main>
+~~~
+
+Section para expor as principais dúvidas dos nossos clientes e quais são as respostas para eles! :)
