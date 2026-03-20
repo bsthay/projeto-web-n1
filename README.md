@@ -200,7 +200,6 @@ a {
 ul {
     list-style: none;
 }
-
 ~~~
 
 Aqui nós temos a configuração inicial do nosso CSS, criando variáveis para as cores principais, texto de decoração e uma lista.
@@ -264,7 +263,6 @@ nav ul li:last-child a:hover {
 Aqui nos estilizamos o cabeçalho, logo menu (bordas etc) do nosso site.
 
 ~~~
-
 /* =========================================
    Seções Gerais
 ========================================= */
@@ -285,7 +283,6 @@ ranslateY(-2px);
 Aqui definimos a cor, alinhamos o texto, para um hero mais destacado
 
 ~~~~
-
 /* =========================================
    Hero Section (Primeira Seção)
 ========================================= */
@@ -327,13 +324,11 @@ main section:first-of-type > a:hover {
     background-color: var(--verde-escuro);
     transform: translateY(-2px);[
 }
-
 ~~~
 
 esse é o destaque do nosso site, com cores chamativas, adicionamos animações como hover no botão principal.
 
 ~~~
-
 /* =========================================
    Como Funciona
 ========================================= */
@@ -367,7 +362,6 @@ esse é o destaque do nosso site, com cores chamativas, adicionamos animações 
 essa seção nos explica exatamente como é o fluxo de processos da nossa empresa, mantemos as cores padrões.
 
 ~~~
-
 /* =========================================
    Planos de Assinatura
 ========================================= */
@@ -650,5 +644,3 @@ footer p:last-child {
 ~~~
 
 Finalizamos o design mostrando as perguntas frequentes (FAQ) e desenha o rodapé.
-
-~~~
