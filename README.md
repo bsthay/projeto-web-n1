@@ -159,7 +159,6 @@ Section específica para divulgar a principal tela do nosso aplicativo.
 Section para expor as principais dúvidas dos nossos clientes e quais são as respostas para eles! :)
 
 CÓDIGO CSS
-
 ~~~
 /* =========================================
    Variáveis e Reset Básico
@@ -201,9 +200,7 @@ ul {
     list-style: none;
 }
 ~~~
-
 Aqui nós temos a configuração inicial do nosso CSS, criando variáveis para as cores principais, texto de decoração e uma lista.
-
 ~~~
 /* =========================================
    Cabeçalho e Navegação
@@ -259,9 +256,7 @@ nav ul li:last-child a:hover {
     background-color: var(--verde-escuro);
 }
 ~~~
-
 Aqui nos estilizamos o cabeçalho, logo menu (bordas etc) do nosso site.
-
 ~~~
 /* =========================================
    Seções Gerais
@@ -278,11 +273,9 @@ section h2 {
 }
 ranslateY(-2px);
 }
-~~~~
-
+~~~
 Aqui definimos a cor, alinhamos o texto, para um hero mais destacado
-
-~~~~
+~~~
 /* =========================================
    Hero Section (Primeira Seção)
 ========================================= */
@@ -325,9 +318,7 @@ main section:first-of-type > a:hover {
     transform: translateY(-2px);[
 }
 ~~~
-
-esse é o destaque do nosso site, com cores chamativas, adicionamos animações como hover no botão principal.
-
+Esse é o destaque do nosso site, com cores chamativas, adicionamos animações como hover no botão principal.
 ~~~
 /* =========================================
    Como Funciona
@@ -358,9 +349,7 @@ esse é o destaque do nosso site, com cores chamativas, adicionamos animações 
     margin-bottom: 1rem;
 }
 ~~~
-
-essa seção nos explica exatamente como é o fluxo de processos da nossa empresa, mantemos as cores padrões.
-
+Essa seção nos explica exatamente como é o fluxo de processos da nossa empresa, mantemos as cores padrões.
 ~~~
 /* =========================================
    Planos de Assinatura
@@ -483,9 +472,7 @@ Seção que destaca os diferentes planos da nossa empresa, para estilização, a
     margin-bottom: 0.5rem;
 }
 ~~~
-
 Fizemos uma class (#plantas) dedicada ao design das imagens das plantas, com foco em centralizar e padronizar o design, com bordas arredondadas e sombras.
-
 ~~~
 #app {
     display: flex;
@@ -533,9 +520,7 @@ Fizemos uma class (#plantas) dedicada ao design das imagens das plantas, com foc
     margin-bottom: 0.3rem;
 }
 ~~~
-
 Fizemos também uma class (#app) dedicada ao design da área na qual falamos sobre o nosso aplicativo. Utilizamos o flexbox para ajudar a organizar o texto, imagens e listas.
-
 ~~~
 /* =========================================
    FAQ (Dúvidas Frequentes)
@@ -642,5 +627,4 @@ footer p:last-child {
     }
 }
 ~~~
-
 Finalizamos o design mostrando as perguntas frequentes (FAQ) e desenha o rodapé.
