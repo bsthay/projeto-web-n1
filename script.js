@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
         "section, article, figure, #app ul li, details"
     );
 
-    // adiciona classe inicial
     elements.forEach(el => {
         el.classList.add("fade-in");
     });
@@ -29,7 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
        2. MENU MOBILE (CRIADO DO ZERO)
     ===================================== */
 
-    // cria botão hamburguer dinamicamente
     const header = document.querySelector("header");
     const nav = document.querySelector("header nav");
 
@@ -42,7 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
     menuButton.addEventListener("click", () => {
         nav.classList.toggle("active");
 
-        // troca ícone
         if (nav.classList.contains("active")) {
             menuButton.innerHTML = "✖";
         } else {
