@@ -685,3 +685,15 @@ O JS cria uma animação chamada fade-in quando você rola a página. Assim os e
 });
 ~~~
 O JS cria um menu mobile que: aparece no celular e abre/fecha o menu.
+
+No arquivo HTML, adicionamos a logo que aparecerá na tag head (favicon-16x16.png, favicon-32x32.png).
+~~~
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel = "stylesheet" href = "style.css">
+    <title>PlantiBox</title>
+</head>
+~~~
