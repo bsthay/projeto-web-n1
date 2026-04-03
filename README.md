@@ -722,3 +722,33 @@ header {
     z-index: 100;
 }
 ~~~
+
+No próximo trecho a ser apresentado, colocamos também a imagem da suculenta como exemplo de uma das plantas que oferecemos e colocamos uma imagem para apresentar o nosso app.
+~~~
+        <section id="plantas">
+            <h2>Algumas das nossas mini-plantas</h2>
+            <figure>
+                <img src="assets/suculentas.webp" alt="Suculentas">
+                <figcaption>
+                    <h4>Suculentas</h4>
+                    <p>Perfeitas para iniciantes, amam sol e pouca água.</p>
+                </figcaption>
+            </figure>
+            </section>
+
+        <section id="app">
+            <h2>Mais que plantas, um guia na sua mão</h2>
+            <img src="assets/plantiapp.png" alt="Mockup do App">
+            <p>Nosso app é o companheiro perfeito para sua jornada verde.</p>
+            <ul>
+                <li>
+                    <h4>Guias de Cuidado</h4>
+                    <p>Tudo sobre sua nova planta: luz, água e curiosidades.</p>
+                </li>
+                <li>
+                    <h4>Lembretes de Rega</h4>
+                    <p>Avisamos a hora certa de regar, sem adivinhação.</p>
+                </li>
+            </ul>
+        </section>
+~~~
