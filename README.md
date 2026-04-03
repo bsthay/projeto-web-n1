@@ -707,3 +707,18 @@ No arquivo CSS, adicionamos uma class chamada "logo" para centralizá-lo.
     gap: 0px;
 }
 ~~~
+
+Nessa parte do código CSS, também mudamos a cor do cabeçalho, que estava branca, para um tom bege.
+~~~
+header {
+    background-color: #f3f0e2;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+~~~
