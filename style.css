@@ -42,7 +42,7 @@ ul {
 }
 
 header {
-    background-color: var(--branco);
+    background-color: #f3f0e2;
     padding: 1rem 5%;
     display: flex;
     justify-content: space-between;
