@@ -9,6 +9,12 @@
     --borda: #E0E0E0;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+
 * {
     margin: 0;
     padding: 0;
