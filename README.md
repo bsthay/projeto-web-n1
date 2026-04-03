@@ -697,3 +697,13 @@ No arquivo HTML, adicionamos a logo que aparecerá na tag head (favicon-16x16.pn
     <title>PlantiBox</title>
 </head>
 ~~~
+
+No arquivo CSS, adicionamos uma class chamada "logo" para centralizá-lo.
+
+~~~
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+}
+~~~
