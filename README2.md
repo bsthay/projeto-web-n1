@@ -157,3 +157,36 @@ Características técnicas:
 * Uso de radio buttons para seleção exclusiva
 * Separação por seções bem definidas (UX clara)
 * Botão CTA com destaque visual
+
+Página com plantas que são oferecidas
+![WIREFRAME MOBILE](plantas_oferecidas.jpg)
+Tela destinada à mostrar quais plantas são oferecidas com apenas algumas informações básicas.
+
+Estrutura:
+
+* Header padrão com navegação:
+    * “Nossas plantas”, “Nossos planos”, “Nosso app”, “Login”
+* Seção: Conheça todas as nossas plantas
+    * Cards com imagens das plantas e informações simples sobre cada uma delas.
+* Footer:
+    * Texto institucional
+    * Ícones de redes sociais (Instagram e TikTok)
+
+Características técnicas:
+
+* Utilização de cards para exibir cada planta
+* Uso de rotas dinâmicas que será mostrado no wireframe a seguir
+
+Página com informações de uma única planta
+![WIREFRAME MOBILE](planta_individual.jpg)
+Tela destinada à mostrar informações sobre a planta que foi selecionada.
+
+Estrutura:
+
+* Header padrão com navegação:
+    * “Nossas plantas”, “Nossos planos”, “Nosso app”, “Login”
+* Seção: Informações sobre a planta
+    * Imagem da planta selecionada com todas as informações necessárias sobre ela, incluindo seu nome.
+* Footer:
+    * Texto institucional
+    * Ícones de redes sociais (Instagram e TikTok)
