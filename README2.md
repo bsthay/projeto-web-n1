@@ -190,3 +190,7 @@ Estrutura:
 * Footer:
     * Texto institucional
     * Ícones de redes sociais (Instagram e TikTok)
+ 
+Características técnicas:
+
+* Utilização de rota dinâmica para mostrar informações sobre as plantas que foram selecionadas em cada card.
